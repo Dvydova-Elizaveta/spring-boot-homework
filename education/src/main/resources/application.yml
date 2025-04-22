@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: test
+
+app:
+  env-var: ${EXAMPLE_TEST:default}
