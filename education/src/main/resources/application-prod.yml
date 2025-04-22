@@ -1,0 +1,11 @@
+string:
+  profile:
+    active:
+      on-profile: prod
+
+app:
+  values:
+    - prod-values1
+    - prod-values2
+    - prod-values3
+  name: "EducationApp (PROD)"

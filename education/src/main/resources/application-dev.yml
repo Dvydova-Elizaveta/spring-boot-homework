@@ -1,0 +1,11 @@
+string:
+  profile:
+    active:
+      on-profile: dev
+
+app:
+  values:
+    - dev-values1
+    - dev-values2
+    - dev-values3
+  name: "EducationApp (DEV)"
