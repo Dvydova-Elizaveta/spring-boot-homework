@@ -1,4 +1,7 @@
 package com.example.education.repository;
 
-public interface TodoListRepository {
+import com.example.education.entity.TodoList;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TodoListRepository extends JpaRepository<TodoList, Long> {
 }
